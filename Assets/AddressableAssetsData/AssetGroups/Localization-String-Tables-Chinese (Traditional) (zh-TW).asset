@@ -17,12 +17,43 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: df7909c117bae6c47ba43a82b6653009
   m_SerializeEntries:
+  - m_GUID: 1910cbdd41e524d41bbf9e37500a425f
+    m_Address: WreckTheWaste_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c96b79efef8e4343b88cf7c7327066e
+    m_Address: MatchTheSound_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83be3e54b1bc73548876fc19907f84d0
+    m_Address: Coral_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c8d7a338c23c9ab40aeb6d16eef4e4f4
     m_Address: Home_zh-TW
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-zh-TW
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd0a014433f1d944f971bfb9aeb29c9a
+    m_Address: Suggestion_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf828f76ae76b9d47a48dbd350ddc7f3
+    m_Address: SpellingBee_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: aec8579a26f5a0948bcaf747b76ba179, type: 2}

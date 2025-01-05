@@ -17,8 +17,39 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 88b4f7889a681374c866d11658b7f1ff
   m_SerializeEntries:
+  - m_GUID: 6edebf22fa09ee14fb46712275a9bb6c
+    m_Address: WreckTheWaste_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7054b3edcbb814d4caf4c1f973f66a4a
+    m_Address: MatchTheSound_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad052b869b584774c823d5b11946c2c3
+    m_Address: SpellingBee_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b5d49209f6c3b83458477227024dad24
     m_Address: Home_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3baebd2e7e7d994b8ed28286e986e46
+    m_Address: Suggestion_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3e0d6967bf8751428d9de8a2313c800
+    m_Address: Coral_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

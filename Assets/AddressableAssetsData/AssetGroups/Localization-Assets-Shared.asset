@@ -22,6 +22,31 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98816fac58ef71b4a910e8c9f238fd5e
+    m_Address: Assets/Languages/SpellingBee/SpellingBee Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3947e09f21fb6c428681656b68864da
+    m_Address: Assets/Languages/MatchTheSound/MatchTheSound Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1e630295a691b54d996b9a784b746de
+    m_Address: Assets/Languages/Carol/Coral Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d887644a7b713e54098fa10a321f9437
+    m_Address: Assets/Languages/Suggestion/Suggestion Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: effbf2c8f7670b64d8ff2ce6214dc84a
+    m_Address: Assets/Languages/WreckTheWaste/WreckTheWaste Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: aec8579a26f5a0948bcaf747b76ba179, type: 2}
   m_SchemaSet:

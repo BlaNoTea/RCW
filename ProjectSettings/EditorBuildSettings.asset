@@ -4,7 +4,28 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Home/home.unity
+    guid: cf3f2092fa2357848936f67539a54fa9
+  - enabled: 1
+    path: Assets/Scenes/Coral/Coral.unity
+    guid: c788f8b22be5d0448a5b467fa1369f18
+  - enabled: 1
+    path: Assets/Scenes/MatchTheSound/MatchTheSound.unity
+    guid: 0e68a6c749e69194aa8d3335b0883d43
+  - enabled: 1
+    path: Assets/Scenes/SpellingBee/SpellingBee.unity
+    guid: 5e6681ee84890e44684d5dda09dd1a86
+  - enabled: 1
+    path: Assets/Scenes/Suggestion/Suggestion.unity
+    guid: 37af15eb0c31a1e44af5a8ca4f466aa2
+  - enabled: 1
+    path: Assets/Scenes/VR/VRtest.unity
+    guid: 7057a8a87db29974c89d4f1869aa7708
+  - enabled: 1
+    path: Assets/Scenes/WreckTheWaste/WreckTheWaste.unity
+    guid: 1516ed703b45e6547938832eaae4f6fa
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 9b65f445cb0eac64894ec5b6a30dfa75, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 16415d072189ef942af085f534d8e276, type: 2}
