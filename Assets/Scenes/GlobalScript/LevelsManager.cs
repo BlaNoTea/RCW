@@ -5,6 +5,8 @@ using UnityEngine;
 public class LevelsManager : MonoBehaviour
 {
     public LoadingManager loadingManager;
+    public AudioClip au;
+    public Wifi wifi;
     private string[] scenes = new string[6];
     private int currIdx = 0;
     private void OnEnable(){
@@ -39,6 +41,12 @@ public class LevelsManager : MonoBehaviour
             currIdx = 0;
         } else {
             loadingManager.Sceneloader(scenes[currIdx]);
+
+            if(currIdx > 1){
+                wifi.changeLevel(currIdx);
+            }
         }
+
+        gameObject.GetComponent<AudioSource>().Play();
     }
 }

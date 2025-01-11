@@ -10,6 +10,7 @@ public class TapesManager : MonoBehaviour
     public AudioClip[] music;
     public GameObject[] tapes;
     public GameObject[] images;
+    private bool[] canPair;
     private AudioSource audioSource;
     private int total;
     public static event Action OnLevelCompeleted;
@@ -21,6 +22,11 @@ public class TapesManager : MonoBehaviour
         }
         
         total = music.Length;
+
+        canPair = new bool[3];
+        for(int i = 0; i < canPair.Length; i++){
+            canPair[i] = false;
+        }
 
         FisherYatesShuffle(tapes);
 
@@ -51,6 +57,7 @@ public class TapesManager : MonoBehaviour
 
     private void OnButtonClicked(int idx){
         if(idx >= 0 && idx < music.Length){
+            canPair[idx] = true;
             audioSource.clip = music[idx];
             audioSource.Play();
         }
@@ -58,7 +65,7 @@ public class TapesManager : MonoBehaviour
 
     public void DragEnded(GameObject currimg, PointerEventData eventData){
         int idx = System.Array.IndexOf(images, currimg);
-        if(tapes[idx] != null && checkOverlapping(tapes[idx], eventData)){
+        if(canPair[idx] == true && tapes[idx] != null && checkOverlapping(tapes[idx], eventData)){
             images[idx].SetActive(false);
             tapes[idx].SetActive(false);
             total--;

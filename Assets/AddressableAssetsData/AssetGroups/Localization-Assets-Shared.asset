@@ -17,6 +17,11 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: d18bb1f50cddc2f4a96275dc6a3a2d5e
   m_SerializeEntries:
+  - m_GUID: 1ec16ee349d21ec49be55784f6a418ac
+    m_Address: Assets/Languages/BlueCarbon/BlueCarbon Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 70ba7ca435b70674ebfb0a496fa4f81f
     m_Address: Assets/Languages/New Table Shared Data.asset
     m_ReadOnly: 1

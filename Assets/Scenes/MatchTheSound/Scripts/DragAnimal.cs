@@ -26,8 +26,7 @@ public class DragAnimal : MonoBehaviour, IPointerUpHandler, IPointerDownHandler,
     }
 
     public void OnPointerDown(PointerEventData eventData){
-
-        AudioManager.Instance.PlaySound(clickSound);
+        // AudioManager.Instance.PlaySound(clickSound);
 
         Vector2 localPoint;
         RectTransformUtility.ScreenPointToLocalPointInRectangle(

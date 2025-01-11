@@ -24,7 +24,7 @@ public class Suggestion : MonoBehaviour
 
     public void DragEnded(PointerEventData eventData){
         foreach(GameObject image in suitable){
-            if(image != null && checkOverlapping(image, eventData)){
+            if(image.activeSelf == true && image != null && checkOverlapping(image, eventData)){
                 image.SetActive(false);
 
                 total--;

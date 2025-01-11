@@ -36,6 +36,12 @@ MonoBehaviour:
     - Locale-zh-TW
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9edaa027b339b3547a8ef37d29927ee0
+    m_Address: BlueCarbon_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c8d7a338c23c9ab40aeb6d16eef4e4f4
     m_Address: Home_zh-TW
     m_ReadOnly: 1

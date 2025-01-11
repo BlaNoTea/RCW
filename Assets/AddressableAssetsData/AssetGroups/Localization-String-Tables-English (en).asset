@@ -48,6 +48,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec029b5b70e45fd468ce0b5dc366c578
+    m_Address: BlueCarbon_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f3e0d6967bf8751428d9de8a2313c800
     m_Address: Coral_en
     m_ReadOnly: 1
